@@ -1,0 +1,45 @@
+# Dépendances node et Yarn
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Tests
+/coverage
+
+# Next.js build et export
+/.next/
+/out/
+
+# Fichiers de build
+/build
+
+# Fichiers système
+.DS_Store
+*.pem
+
+# Logs et debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Fichiers d’environnement (variables sensibles)
+.env*
+
+# Dossier Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Éditeurs (optionnel)
+.vscode/
+.idea/
+
+.vercel
